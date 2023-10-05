@@ -4,7 +4,7 @@ import './App.css';
 import Counter from './Components/Counter';
 import Nav from './Components/Nav';
 import LoginScreen from './Components/LogIn';
-import Product from './Components/Product';
+import Products from './Components/Products';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/counter" element={<Counter />} />
-        <Route path="/" element={<Product />} />
+        <Route path="/" element={<Products />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/login" element={<LoginScreen />} />
       </Routes>

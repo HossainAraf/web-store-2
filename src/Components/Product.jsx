@@ -1,13 +1,13 @@
 // Product.jsx
 // IMPORTS
 
-const Product = ({id, name, imgUrl, price }) => {
+const Product = ({id, title, img, price }) => {
 return (
     <div>
-        <img src="{imgUrl}" alt="product" />
-        <h3>{name}</h3>
+        <img src={img} alt="product" />
+        <h3>{title}</h3>
         <p>${price}</p> 
-        <p>Hello</p>
+        <p>Good Day!</p>
     </div>
 );
 }
