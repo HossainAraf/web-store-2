@@ -1,0 +1,14 @@
+form {
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 1rem;
+}
+.form-group {
+    margin-bottom: 1rem;
+    align-items: self-start;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}

@@ -1,5 +1,7 @@
 // LogIn.jsx
-import { useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form';
+import '../Styles/index.css';
+import '../Styles/form.css';
 
 const LoginScreen = () => {
   const { register, handleSubmit } = useForm()
@@ -10,7 +12,7 @@ const LoginScreen = () => {
 
   return (
     <form onSubmit={handleSubmit(submitForm)}>
-      <div className='form-group'>
+      <div className='form-group flex-col'>
         <label htmlFor='email'>Email</label>
         <input
           type='email'
