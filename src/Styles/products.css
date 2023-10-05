@@ -11,4 +11,6 @@
 .products-wrapper ul li {
   display: flex;
   flex: 0 0 33%;
+  border-bottom: 0.05px solid hsl(0, 100%, 50%);
+  margin-bottom: 5%;
 }
