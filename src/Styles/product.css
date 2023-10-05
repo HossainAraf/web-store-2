@@ -1,0 +1,9 @@
+.single-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-product img {
+  width: 50%;
+}

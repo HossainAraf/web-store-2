@@ -1,0 +1,14 @@
+.products-wrapper {
+  padding:1%;
+  justify-content: space-evenly;
+}
+
+.products-wrapper ul {
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.products-wrapper ul li {
+  display: flex;
+  flex: 0 0 33%;
+}

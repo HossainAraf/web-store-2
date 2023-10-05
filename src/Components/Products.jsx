@@ -3,11 +3,13 @@
 import React from 'react';
 import Product from './Product';
 import AllProducts from './AllProducts';
+import '../Styles/index.css';
+import '../Styles/products.css';
 
 const Products = () => {
   return (
-    <div>
-      <ul>
+    <div className="products-wrapper flex-row">
+      <ul className="flex-row">
         {AllProducts.map((product, index) => (
           <li key={index}>
             <Product
