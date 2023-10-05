@@ -1,0 +1,11 @@
+.nav-wrapper {
+  justify-content: space-around;
+}
+
+.nav-wrapper .nav {
+  justify-content: flex-end;
+}
+
+.nav-wrapper .nav a {
+  padding: 0 1rem;
+}

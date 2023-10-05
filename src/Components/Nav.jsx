@@ -2,14 +2,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LoginScreen from './LogIn';
-import '../index.css'
-import '../Styles/nav.css'
+import '../Styles/index.css';
+import '../Styles/nav.css';
 
 // COMPONENT
 const Nav = () => {
     return (
-        <nav className="nav flex-row">
-            <h1>U_Mart</h1>
+      <div className="nav-wrapper flex-row">
+        <h1>U_Mart</h1>
+        <nav className="nav flex-row">   
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact Us</Link>
@@ -20,6 +21,7 @@ const Nav = () => {
               <button>Sign up</button>
             </Link>
         </nav>
+      </div>
     );
 };
 
