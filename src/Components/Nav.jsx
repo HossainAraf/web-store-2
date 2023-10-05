@@ -1,6 +1,7 @@
 // IMPORTS
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LoginScreen from './LogIn';
 
 // COMPONENT
 const Nav = () => {
@@ -10,8 +11,12 @@ const Nav = () => {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact Us</Link>
-            <Link to="/login">Log in</Link>
-            <Link to="/signup">Sign up</Link>
+            <Link to="/login">
+              <button>Log in: {LoginScreen}</button>
+            </Link>
+            <Link to="/signup">
+              <button>Sign up</button>
+            </Link>
         </nav>
     );
 };
