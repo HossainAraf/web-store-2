@@ -17,6 +17,7 @@ const Products = () => {
               img={product.img}
               title={product.title}
               price={product.price}
+              
             />
           </li>
         ))}
